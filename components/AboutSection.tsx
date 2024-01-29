@@ -11,7 +11,6 @@ const skills = [
   { skill: "PHP" },
   { skill: "Laravel" },
   { skill: "Tailwind CSS" },
-  { skill: "Git" },
   { skill: "GitHub" },
 ]
 
