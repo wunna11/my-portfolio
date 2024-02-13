@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { Link } from "react-scroll";
 import { HiArrowDown } from "react-icons/hi";
+import TextAnimation from "./aninmation/TextAnimation";
 
 const ArrowComponent = () => {
   return <HiArrowDown size={35} className="animate-bounce" />;
@@ -23,6 +24,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
+          <TextAnimation>
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
             Hi, I&#39;m Wunna!
           </h1>
@@ -46,6 +48,7 @@ const HeroSection = () => {
           >
             Download Resume
           </a>
+          </TextAnimation>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

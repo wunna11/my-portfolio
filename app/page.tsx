@@ -19,7 +19,6 @@ export default function Home() {
     <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <motion.div className="progress-bar" style={{ scaleX }} />
       <HeroSection />
-      <TrackingPage />
       <AboutSection />
       <ProjectsSection />
       <ContactSection />
