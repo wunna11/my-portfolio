@@ -19,6 +19,13 @@ const projects = [
     image: "/thankfulthoughts.png",
     github: "https://github.com/wunna11/Shopping-",
   },
+  {
+    name: "Coffee Shop App",
+    description:
+      "Coffee Shop App is a web app that includes user can order coffee and add to cart function.",
+    image: "/project/coffeeShop.png",
+    github: "https://coffee-shop-snowy.vercel.app/",
+  },
 ]
 
 const ProjectsSection = () => {
@@ -36,7 +43,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.github}>
+                    <Link href={project.github} target="_blank">
                       <Image
                         src={project.image}
                         alt=""
